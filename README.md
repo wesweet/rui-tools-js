@@ -4,7 +4,7 @@ JavaScripts 常用方法工具库
 
 ## GitHub 仓库
 
-[github](https://github.com/wesweet/rui-tools-js/issues)
+[github](https://github.com/wesweet/rui-tools-js)
 
 ### 提供的 API
 
@@ -19,11 +19,13 @@ getBase64(file)
 
 将一个多维数组转换成一维数组
 ```js
+// [1, [2, 3, [4, 5]]]  ------>    [1, 2, 3, 4, 5]
 flatten(array)
 ```
 
 #### 普通数组转成树形结构数组
 ```js
+// 
 treeData(source, id, parentId, children)
 ```
 
