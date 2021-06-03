@@ -2,7 +2,7 @@
  * @Description: 入口文件
  * @Author: panrui
  * @Date: 2021-03-15 10:14:11
- * @LastEditTime: 2021-03-19 11:22:15
+ * @LastEditTime: 2021-06-03 14:59:48
  * @LastEditors: panrui
  * 不忘初心,不负梦想
  */
@@ -42,7 +42,6 @@ export default {
     let cloneData = JSON.parse(JSON.stringify(source)) //克隆数组
     return cloneData.filter(father => {
         let branchArr = cloneData.filter(child => father[id] == child[parentId]);
-        debugger
         branchArr.length > 0 ? father[children] = branchArr : ''
         return father[parentId] == 0 
     })
