@@ -5,6 +5,14 @@ JavaScripts 常用方法工具库
 ## GitHub 仓库
 
 [github](https://github.com/wesweet/rui-tools-js)
+## 部署流程
+> 修改 version 版本号
+
+> npm login
+
+> npm publish
+
+## 开发记录
 
 ### 提供的 API
 
